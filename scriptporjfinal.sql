@@ -46,7 +46,8 @@ CREATE TABLE Livro(
 
 
 CREATE TABLE Emprestimo(
-    id_emp int,
+    id_emp int GENERATED ALWAYS AS IDENTITY 
+    (START WITH 1 INCREMENT BY 1),
     Cli int,
     Bibli int,
     Liv int,
