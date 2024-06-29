@@ -120,6 +120,8 @@ insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (48, '
 insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (49, '807.517.047-14', 'Terra Delacote', '05/11/2020', 0, '821 Jana Parkway');
 insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (50, '332.616.803-05', 'Farley Akerman', '16/02/2021', 0, '61 Eggendart Parkway');
 
+--insercao bibliotecario
+insert int bibliotecario(
 
 
 --insercao livro
