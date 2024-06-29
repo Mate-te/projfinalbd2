@@ -1,6 +1,55 @@
 
 --insercao autor
-
+insert into autor (id_autor, Nome, biografia) values (1, 'Reinald Baskeyfied', 'Data Coordinator');
+insert into autor (id_autor, Nome, biografia) values (2, 'Essa Forty', 'Physical Therapy Assistant');
+insert into autor (id_autor, Nome, biografia) values (3, 'Keefer Bilverstone', 'Director of Sales');
+insert into autor (id_autor, Nome, biografia) values (4, 'Mikel Cowton', 'Safety Technician III');
+insert into autor (id_autor, Nome, biografia) values (5, 'Feliks MacCome', 'Structural Analysis Engineer');
+insert into autor (id_autor, Nome, biografia) values (6, 'Bibbye Swale', 'Quality Control Specialist');
+insert into autor (id_autor, Nome, biografia) values (7, 'Bobbe Leavy', 'VP Sales');
+insert into autor (id_autor, Nome, biografia) values (8, 'Vassili Gossage', 'Budget/Accounting Analyst III');
+insert into autor (id_autor, Nome, biografia) values (9, 'Aland Cleve', 'Cost Accountant');
+insert into autor (id_autor, Nome, biografia) values (10, 'Carlene Sheirlaw', 'Social Worker');
+insert into autor (id_autor, Nome, biografia) values (11, 'Noam Wallsworth', 'Physical Therapy Assistant');
+insert into autor (id_autor, Nome, biografia) values (12, 'Townie Austins', 'Senior Developer');
+insert into autor (id_autor, Nome, biografia) values (13, 'Efren Trimme', 'Occupational Therapist');
+insert into autor (id_autor, Nome, biografia) values (14, 'Barnabas Tweedle', 'Data Coordinator');
+insert into autor (id_autor, Nome, biografia) values (15, 'Caryl Cussons', 'Legal Assistant');
+insert into autor (id_autor, Nome, biografia) values (16, 'Franny Stagg', 'Marketing Assistant');
+insert into autor (id_autor, Nome, biografia) values (17, 'Gwenore Jeanel', 'Accountant I');
+insert into autor (id_autor, Nome, biografia) values (18, 'Blakeley Joskowicz', 'Operator');
+insert into autor (id_autor, Nome, biografia) values (19, 'Devonna Spykings', 'Desktop Support Technician');
+insert into autor (id_autor, Nome, biografia) values (20, 'Janie Fatkin', 'Librarian');
+insert into autor (id_autor, Nome, biografia) values (21, 'Shela Ohrt', 'Human Resources Assistant II');
+insert into autor (id_autor, Nome, biografia) values (22, 'Hyacinthie Toogood', 'Automation Specialist IV');
+insert into autor (id_autor, Nome, biografia) values (23, 'Maryl Frounks', 'Technical Writer');
+insert into autor (id_autor, Nome, biografia) values (24, 'Gratia Jermin', 'Safety Technician IV');
+insert into autor (id_autor, Nome, biografia) values (25, 'Adrianne Rouge', 'Data Coordinator');
+insert into autor (id_autor, Nome, biografia) values (26, 'Kelsey Cicchillo', 'Social Worker');
+insert into autor (id_autor, Nome, biografia) values (27, 'Abner Bamlett', 'Payment Adjustment Coordinator');
+insert into autor (id_autor, Nome, biografia) values (28, 'Jacinthe Wingeat', 'Human Resources Assistant II');
+insert into autor (id_autor, Nome, biografia) values (29, 'Elfrida Lamperd', 'Junior Executive');
+insert into autor (id_autor, Nome, biografia) values (30, 'Bert Aspel', 'Sales Representative');
+insert into autor (id_autor, Nome, biografia) values (31, 'Aviva Gowing', 'Project Manager');
+insert into autor (id_autor, Nome, biografia) values (32, 'Trixi Terrazzo', 'Nuclear Power Engineer');
+insert into autor (id_autor, Nome, biografia) values (33, 'Faina Bakhrushkin', 'Marketing Assistant');
+insert into autor (id_autor, Nome, biografia) values (34, 'Wiley Gehring', 'Sales Associate');
+insert into autor (id_autor, Nome, biografia) values (35, 'Alberta Robertsson', 'Paralegal');
+insert into autor (id_autor, Nome, biografia) values (36, 'Redford Janicki', 'Product Engineer');
+insert into autor (id_autor, Nome, biografia) values (37, 'Terrence Ottewill', 'Geologist III');
+insert into autor (id_autor, Nome, biografia) values (38, 'Brantley Wedge', 'Account Executive');
+insert into autor (id_autor, Nome, biografia) values (39, 'Aldridge Billingsley', 'Senior Developer');
+insert into autor (id_autor, Nome, biografia) values (40, 'Robin McGaffey', 'Media Manager IV');
+insert into autor (id_autor, Nome, biografia) values (41, 'Nels Clemits', 'Safety Technician II');
+insert into autor (id_autor, Nome, biografia) values (42, 'Shelden Dooly', 'Technical Writer');
+insert into autor (id_autor, Nome, biografia) values (43, 'Dexter Stiell', 'Human Resources Assistant III');
+insert into autor (id_autor, Nome, biografia) values (44, 'Doreen Melmeth', 'General Manager');
+insert into autor (id_autor, Nome, biografia) values (45, 'Ryon Norker', 'Software Consultant');
+insert into autor (id_autor, Nome, biografia) values (46, 'Artair Coryndon', 'Registered Nurse');
+insert into autor (id_autor, Nome, biografia) values (47, 'Barb McGregor', 'Product Engineer');
+insert into autor (id_autor, Nome, biografia) values (48, 'Gabie Realff', 'VP Marketing');
+insert into autor (id_autor, Nome, biografia) values (49, 'Jobie Bussen', 'Help Desk Operator');
+insert into autor (id_autor, Nome, biografia) values (50, 'Kyle Brozsset', 'Analog Circuit Design manager');
 
 -- insercao editora
 insert into editora (id_editora, Nome) values (1, 'Youspan');
