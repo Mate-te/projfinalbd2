@@ -68,8 +68,60 @@ insert into editora (id_editora, Nome) values (13, 'Geba');
 insert into editora (id_editora, Nome) values (14, 'Babbleopia');
 insert into editora (id_editora, Nome) values (15, 'Yoveo');
 
---insercao livro
+--insercao cliente
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (1, '584.488.285-74', 'Aubrey Cutchee', '05/11/2022', 7, '25245 Mandrake Center');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (2, '473.194.283-97', 'Kalvin Siehard', '18/07/2022', 2, '90675 Blue Bill Park Crossing');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (3, '230.722.123-76', 'Elsa Goard', '19/09/2021', 1, '9792 Mcguire Circle');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (4, '267.981.195-23', 'Alphonse Edgeson', '21/05/2023', 9, '5 Grasskamp Place');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (5, '255.056.763-83', 'Marie-jeanne Ainger', '20/07/2021', 43, '056 Melrose Road');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (6, '323.511.895-93', 'Dominique Falks', '31/01/2023', 6, '46819 Schlimgen Terrace');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (7, '498.183.288-13', 'Karly Fiddian', '18/04/2022', 30, '5 Schmedeman Court');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (8, '386.972.635-88', 'Billy Cohan', '04/08/2021', 8, '820 Southridge Trail');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (9, '358.209.769-76', 'Cleo Maiden', '22/02/2022', 28, '6489 Victoria Place');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (10, '565.016.985-27', 'Sam Swyre', '30/04/2021', 37, '88741 Pleasure Parkway');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (11, '102.164.396-10', 'Boigie Eakens', '07/01/2023', 22, '903 Reinke Circle');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (12, '294.322.620-75', 'Carlo Leachman', '23/06/2023', 25, '84330 Hanson Center');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (13, '302.511.210-93', 'Rora Shuter', '03/09/2020', 35, '7660 Fairview Center');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (14, '876.710.139-70', 'Judd Kemmet', '03/12/2023', 4, '3 Sachtjen Alley');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (15, '039.307.258-87', 'Andriana Kunat', '15/08/2021', 26, '54650 Di Loreto Avenue');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (16, '014.145.063-00', 'Clementine Westrey', '23/07/2021', 34, '20 Stuart Center');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (17, '293.122.011-64', 'Merridie Linay', '19/11/2020', 20, '766 Forest Pass');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (18, '235.481.068-06', 'Gabey Schild', '19/03/2022', 4, '8 Morning Court');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (19, '005.351.614-58', 'Nerta Boarer', '11/04/2022', 44, '79 Golf Course Pass');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (20, '841.300.957-26', 'Merl Sofe', '05/07/2022', 19, '650 Glacier Hill Avenue');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (21, '293.997.946-07', 'Jarrod Helsby', '01/12/2020', 38, '6605 Reindahl Trail');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (22, '500.185.974-44', 'Naomi Wilfinger', '28/03/2023', 27, '44 Spohn Alley');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (23, '778.556.309-53', 'Fallon Goody', '07/05/2022', 3, '10 Troy Way');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (24, '672.524.643-15', 'Maurita Balaison', '27/08/2021', 1, '8 Corben Circle');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (25, '936.312.999-52', 'Felice Mardee', '24/06/2022', 1, '85 Debra Plaza');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (26, '418.059.980-02', 'Margaux Rosenfelder', '13/12/2023', 47, '7486 Lerdahl Parkway');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (27, '943.668.420-47', 'Neal McLaine', '28/08/2021', 38, '71609 Namekagon Road');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (28, '036.182.510-94', 'Demetre Jolin', '04/07/2022', 23, '9528 Thackeray Junction');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (29, '782.822.894-84', 'Killie Hartil', '12/07/2022', 38, '00662 Nelson Center');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (30, '754.287.129-32', 'Ira Grancher', '01/10/2021', 36, '7550 Graceland Park');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (31, '686.118.992-02', 'Fabe Laffling', '22/07/2021', 40, '676 Swallow Lane');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (32, '040.085.138-56', 'Caesar Piet', '28/07/2020', 4, '192 Pond Point');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (33, '231.260.377-22', 'Kim Milson', '16/10/2023', 11, '0 Milwaukee Hill');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (34, '744.413.639-92', 'Virgie Yakobovicz', '18/09/2023', 4, '010 Express Way');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (35, '676.321.201-33', 'Andras Grinstead', '05/05/2023', 37, '94 Walton Road');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (36, '771.911.069-81', 'Smitty Stammer', '29/01/2022', 37, '2363 Pawling Crossing');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (37, '996.877.866-27', 'Dianna Cassels', '01/08/2022', 36, '54270 Loomis Court');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (38, '771.809.427-58', 'Linn Beckinsale', '13/08/2023', 2, '3901 Westport Road');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (39, '617.493.495-60', 'Nat Locke', '24/01/2021', 7, '7 Fisk Court');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (40, '392.082.852-28', 'Bridie Cringle', '31/12/2020', 38, '64 Reindahl Lane');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (41, '328.466.425-37', 'Kliment Cheeney', '01/05/2021', 44, '6 Garrison Trail');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (42, '120.392.193-65', 'Philippe Tearle', '09/06/2021', 11, '2409 Forest Circle');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (43, '481.389.681-05', 'Bryan Van den Dael', '17/09/2023', 33, '89568 Milwaukee Parkway');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (44, '653.130.934-91', 'Lorne Rame', '08/09/2023', 18, '5 Corben Trail');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (45, '072.032.355-94', 'Danita Escale', '28/09/2020', 32, '2 Mosinee Parkway');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (46, '225.642.374-11', 'York Erdes', '03/07/2021', 50, '524 Fieldstone Road');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (47, '951.741.923-41', 'Norbie Grunnill', '03/02/2022', 22, '2449 Springview Avenue');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (48, '721.425.910-55', 'Brose Sigert', '07/09/2021', 31, '901 Warrior Street');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (49, '467.711.200-73', 'Ruthy Nordass', '05/02/2021', 49, '73384 Transport Terrace');
+insert into cliente (id, CPF, Nome, dta_reg, Numero_emp, endereco) values (50, '944.429.382-23', 'Quinlan Cyster', '24/02/2022', 46, '5 Ridge Oak Court');
 
+
+--insercao livro
 insert into livro (id, ISBN, Titulo, categoria, autor, editora, qnt_total, qnt_emprestimo) values (1, '846860309-0', 'Man Who Fell to Earth, The', 'Drama|Sci-Fi', 46, 5, 50, 18);
 insert into livro (id, ISBN, Titulo, categoria, autor, editora, qnt_total, qnt_emprestimo) values (2, '106599498-2', 'Regular Guys (Echte Kerle)', 'Comedy|Romance', 1, 14, 50, 24);
 insert into livro (id, ISBN, Titulo, categoria, autor, editora, qnt_total, qnt_emprestimo) values (3, '402357211-X', 'Simon Killer ', 'Drama', 44, 2, 50, 24);
