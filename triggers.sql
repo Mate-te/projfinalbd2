@@ -52,7 +52,6 @@ CREATE OR REPLACE FUNCTION validaLivro()
 RETURNS TRIGGER AS $$
 BEGIN
     NEW.Titulo := LOWER(NEW.Titulo);
-    NEW.autorL := LOWER(NEW.autorL);
     NEW.ISBN := regexp_replace(NEW.ISBN, '(\d{3})(\d{1})(\d{2})(\d{6})(\d{1})', '\1-\2-\3-\4-\5');
     RETURN NEW;
 END;
