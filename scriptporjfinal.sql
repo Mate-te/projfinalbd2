@@ -31,7 +31,7 @@ CREATE TABLE Bibliotecario(
 
 CREATE TABLE Livro(
     id_livro int,
-    ISBN varchar(14) UNIQUE,
+    ISBN varchar(17) UNIQUE,
     Titulo varchar(150),
     Categoria varchar(150),
     autorL int,
