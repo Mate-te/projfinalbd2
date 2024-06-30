@@ -38,6 +38,8 @@ BEGIN
         RAISE EXCEPTION 'A data de registro (%), deve ser anterior a data atual', NEW.data_reg;
     END IF;
 	NEW.CPF := regexp_replace(NEW.CPF, '(\d{3})(\d{3})(\d{3})(\d{2})', '\1.\2.\3-\4');
+	RETURN NEW;
+
 END;
 $$ LANGUAGE plpgsql;
 
@@ -51,7 +53,8 @@ RETURNS TRIGGER AS $$
 BEGIN
     NEW.Titulo := LOWER(NEW.Titulo);
     NEW.autorL := LOWER(NEW.autorL);
-	NEW.ISBN := regexp_replace(NEW.ISBN, '(\d{3})(\d{1})(\d{2})(\d{6})(\d{1})', '\1-\2-\3-\4-\5');
+    NEW.ISBN := regexp_replace(NEW.ISBN, '(\d{3})(\d{1})(\d{2})(\d{6})(\d{1})', '\1-\2-\3-\4-\5');
+    RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
 
