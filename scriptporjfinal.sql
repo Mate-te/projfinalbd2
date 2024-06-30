@@ -33,7 +33,7 @@ CREATE TABLE Livro(
     id_livro int,
     ISBN varchar(14) UNIQUE,
     Titulo varchar(150),
-    Categoria varchar(50),
+    Categoria varchar(150),
     autorL int,
     editoraL int,
     qnt_total int,
