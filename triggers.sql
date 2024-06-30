@@ -52,6 +52,7 @@ CREATE OR REPLACE FUNCTION validaLivro()
 RETURNS TRIGGER AS $$
 BEGIN
     NEW.Titulo := LOWER(NEW.Titulo);
+	NEW.Categoria := LOWER(NEW.Categoria);
     NEW.ISBN := regexp_replace(NEW.ISBN, '(\d{3})(\d{1})(\d{2})(\d{6})(\d{1})', '\1-\2-\3-\4-\5');
     RETURN NEW;
 END;
@@ -61,4 +62,3 @@ CREATE OR REPLACE TRIGGER trigger_validaLivro
 BEFORE INSERT OR UPDATE ON Livro
 FOR EACH ROW
 EXECUTE FUNCTION validaLivro();
-
