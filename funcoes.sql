@@ -1,3 +1,4 @@
+--funcaod e emprestimo
 CREATE OR REPLACE FUNCTION Empresta(id_cliente int ,id_bibli int ,id_livro int)
 RETURNS boolean as $$
 BEGIN
@@ -7,6 +8,7 @@ BEGIN
 end;
 $$ language plpgsql;
 
+--funcao que mostra qnt de livros disponiveis
 CREATE OR REPLACE FUNCTION Livros_disp(id_l int)
 RETURNS INT AS $$
 DECLARE
@@ -17,6 +19,7 @@ BEGIN
 end;
 $$ language plpgsql;
 
+--funcao que mostra os livros de um autor
 create or replace function Livros_autor (id_aut int) 
 returns table (
 	idlivro int,
