@@ -20,7 +20,7 @@ select
     l.Titulo as Livro,
     e.inicio,
     e.fim,
-    case when e.ativo = true then 'Ativo' else 'Concluído' end as Status
+    e.ativo as status
 from Emprestimo e
 join Cliente c on e.Cli = c.id_cliente
 join Livro l on e.Liv = l.id_livro;
