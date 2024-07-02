@@ -1,21 +1,16 @@
-CREATE VIEW Emprestimos_ativos AS
-SELECT 
+create view Emprestimos_ativos as
+select 
     e.id_emp,
-    c.Nome AS Cliente,
-    b.Nome_bibli AS Bibliotecario,
-    l.Titulo AS Livro,
+    c.Nome as Cliente,
+    b.Nome_bibli as Bibliotecario,
+    l.Titulo as Livro,
     e.inicio,
     e.fim
-FROM 
-    Emprestimo e
-JOIN 
-    Cliente c ON e.Cli = c.id_cliente
-JOIN 
-    Bibliotecario b ON e.Bibli = b.id_bibli
-JOIN 
-    Livro l ON e.Liv = l.id_livro
-WHERE 
-    e.ativo = true;
+from Emprestimo e
+join Cliente c on e.Cli = c.id_cliente
+join Bibliotecario b on e.Bibli = b.id_bibli
+join Livro l on e.Liv = l.id_livro
+where e.ativo = true;
 
 
 
@@ -26,28 +21,20 @@ select
     e.inicio,
     e.fim,
     case when e.ativo = true then 'Ativo' else 'Concluído' end as Status
-from 
-    Emprestimo e
-join 
-    Cliente c on e.Cli = c.id_cliente
-join 
-    Livro l on e.Liv = l.id_livro;
+from Emprestimo e
+join Cliente c on e.Cli = c.id_cliente
+join Livro l on e.Liv = l.id_livro;
 
 
 
-CREATE VIEW Livros_populares AS
-SELECT 
+create view Livros_populares as
+select
     l.Titulo,
     l.Categoria,
-    a.Nome AS Autor,
-    COUNT(e.id_emp) AS NumeroEmprestimos
-FROM 
-    Livro l
-JOIN 
-    Emprestimo e ON l.id_livro = e.Liv
-JOIN 
-    Autor a ON l.autorL = a.id_autor
-GROUP BY 
-    l.Titulo, l.Categoria, a.Nome
-ORDER BY 
-    NumeroEmprestimos DESC;
+    a.Nome as Autor,
+    count(e.id_emp) as NumeroEmprestimos
+from Livro l
+join Emprestimo e on l.id_livro = e.Liv
+join Autor a on l.autorL = a.id_autor
+group by l.Titulo, l.Categoria, a.Nome
+order by NumeroEmprestimos desc;
