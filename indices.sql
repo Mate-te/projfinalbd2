@@ -6,7 +6,7 @@ create INDEX idx_emprestimoinicio on Emprestimo(inicio);
 create INDEX idx_emprestimofim on Emprestimo(fim);
 
 
-explain analyze SELECTselect l.*
+explain analyze select l.*
 from Livro l
 join Autor a on l.autorL = a.id_autor
 where a.Nome like 'A%';
